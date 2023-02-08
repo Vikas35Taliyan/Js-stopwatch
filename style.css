@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    background-color: white;
+}
+
+.time{
+    font-size: 150px;
+    border: 2px solid rebeccapurple;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+}
+.txt{
+    font-size: 50px;
+    margin-bottom: -50px;
+}
+
+span{
+    padding: 5px;
+}
+
+.buttons{
+    position: absolute;
+    display: inline-block;
+    margin-top: -200px;
+    margin-left: 370px;
+}
+
+
+.btn{
+    font-size: 22px;
+    width: 130px;
+    height: 45px;
+    border: none;
+    margin: 15px 50px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+#start{
+    background-color: rgb(14, 175, 14);
+
+}
+#stop{
+    background-color: red;
+}
+#restart{
+    background-color: yellow;
+}
+#name{
+    color: aliceblue;
+}
